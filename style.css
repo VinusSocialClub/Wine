@@ -8,11 +8,15 @@ body {
 }
 
 header {
-  background-color: #004225;
-  color: white;
   padding: 0;
   display: block;
   text-align: center;
+  background-color: #185e43;
+}
+
+.header-logo {
+  width: 100%;
+  background-color: #185e43;
 }
 
 .logo {
@@ -20,6 +24,8 @@ header {
   height: auto;
   max-height: 200px;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 nav {
@@ -89,18 +95,4 @@ nav ul li a {
 
 .shop { background-color: #f27d8c; }
 .watch { background-color: #f1943c; }
-.read { bac
-
-       .header-logo {
-  width: 100%;
-  background-color: #004225;
-}
-
-.logo {
-  width: 100%;
-  height: auto;
-  max-height: 200px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-}
+.read { background-color: #d3af37; }
